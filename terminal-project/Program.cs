@@ -40,13 +40,13 @@ Console.WriteLine("ARE YOU AFFILIATED OR HAD ANY RECENT CONTACT WITH MEMBERS OF 
 
 string answer = Console.ReadLine().Trim().ToUpper();
 
-if (answer =="NO")
+if (answer =="YES")
 {
     Console.WriteLine("ANY AND ALL COLLABORATORS TO THE ENEMY WILL BE DISPATCHED");
     Console.WriteLine("*TERMINATION IN PROGRESS*");
     Environment.Exit(0);
 }
-else if (answer =="YES") ;
+else if (answer =="NO") ;
 {
     Console.WriteLine("SUFFICIENT ANSWER PREPARE FOR THE FOLOWING QUESTIONS");
 }
