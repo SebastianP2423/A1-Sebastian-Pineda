@@ -14,11 +14,12 @@ namespace MohawkGame2D
 
 
         /// <summary>
-        ///     Setup runs once before the game loop begins.
+        ///     Setup runs once before the game loop begins.                                                                                                                                              
         /// </summary>
         public void Setup()
         {
-
+            Window.SetTitle("Coll Random Stuff");
+            Window.SetSize(400, 400);
         }
 
         /// <summary>
@@ -26,7 +27,13 @@ namespace MohawkGame2D
         /// </summary>
         public void Update()
         {
+            Window.ClearBackground(Color.OffWhite);
 
+            if (Input.IsKeyboardKeyPressed(KeyboardInput.Space)) {)
+                Input.IsMouseButtonPressed(MouseInput.Left))
+             {
+
+              }
         }
     }
 
